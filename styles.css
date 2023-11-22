@@ -1,15 +1,30 @@
 * {
-    border : 1px solid grey;
+
     margin: 0;
 }
 
+.menu {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin: 30px;
 }
 
 .main-container {
@@ -21,7 +36,13 @@
 .row-div {
     display: flex;
     flex-direction: row;
+    border: none;
 }
 
 .square {
+    border : 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.painted {
+    background-color: black;
 }
